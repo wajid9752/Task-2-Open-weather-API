@@ -1,3 +1,9 @@
+
+# output
+
+![Open Weather](https://github.com/wajid9752/Task-2-Open-weather-API/assets/68110483/e02f5a7b-6feb-4045-856e-7ca00c0458f3)
+
+
 Note :This configuration is only for Windows users.
 
 
