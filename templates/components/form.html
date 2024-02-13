@@ -1,0 +1,21 @@
+{% load static %}
+<form id="search-form" name="gs" method="post" role="search">
+    {% csrf_token %}
+    <div class="row">
+      <div class="col-lg-9 col-md-5 col-sm-12 align-self-center">
+          <fieldset>
+            {{form.city_id}}
+          </fieldset>
+        </div>
+     
+      <div class="col-lg-3 col-md-5 col-sm-12 p-3">                        
+          <fieldset>
+              <button class="main-button" id="search-now"><i class="fa fa-search"></i> Search Now</button>
+          </fieldset>
+      </div>
+    </div>
+  </form>
+     
+
+  <script src="{% static 'assets/js/django_api_call.js' %}"></script>
+
